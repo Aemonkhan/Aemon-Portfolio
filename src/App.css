@@ -1,0 +1,18 @@
+a.Navlink{
+margin: 20px ;
+color:white ;
+text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h3{
+  border-bottom: 5px solid red !important;
+  /* text-decoration: underline; */
+  display: inline-block;
+  text-transform: capitalize;
+  /* width: auto;    */
+}
+.MuiAppBar-colorPrimary{
+background-color: purple !important;
+}
