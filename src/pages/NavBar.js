@@ -7,9 +7,9 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import '../App.css'
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  // BrowserRouter as Router,
+  // Switch,
+  // Route,
   Link
 } from "react-router-dom";
 
@@ -39,7 +39,10 @@ export default function DenseAppBar() {
           <Link className="Navlink" to="/project">Projects</Link>
           </Typography>
           <Typography variant="h6" color="inherit">
-          <Link className="Navlink" to="/contact">Contacts</Link>
+          <Link className="Navlink" to="/contacts">Contacts</Link>
+          </Typography>
+          <Typography variant="h6" color="inherit">
+          <Link className="Navlink" to="/Formcontact">FormContact</Link>
           </Typography>
         </Toolbar>
       </AppBar>

@@ -6,13 +6,11 @@ text-decoration: none;
 li {
   list-style: none;
 }
-h3{
-  border-bottom: 5px solid red !important;
-  /* text-decoration: underline; */
+h3,h5{
+  border-bottom: 5px solid rgb(72, 100, 226) !important;
   display: inline-block;
   text-transform: capitalize;
-  /* width: auto;    */
 }
 .MuiAppBar-colorPrimary{
-background-color: purple !important;
+background-color: rgb(107, 107, 170) !important;
 }

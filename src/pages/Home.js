@@ -8,15 +8,17 @@ export default function Home() {
     const h3props = useSpring({ from: { opacity: 0.5, marginLeft: -100 }, to: { opacity: 1, marginLeft: 0 } })
     const [Tagline, setTagline] = useState('Freelancer, react developer, Javascript developer.')
     return (
-        <div style={{ textAlign: "center" }}>
+        <div  style={{textAlign:"center", color:"lightseagreen"}} >
             <h1>My Porfolio</h1>
+       
             <Trail open={open} onClick={() => set((state) => !state)}>
                 <span>Aemon</span>
                 <span>Pervaiz</span>
                 <span>Khan</span>
             </Trail>
             <br />
-            <h3 className='myh3'>
+         
+            <h3  className='myh3'>
                 {Tagline}
             </h3>
 
